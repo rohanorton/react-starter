@@ -63,7 +63,7 @@ const babel = {
                 loader: 'babel',
                 query: {
                     plugins: ['transform-flow-strip-types'],
-                    presets: ['es2015', 'react']
+                    presets: ['es2015-native-modules', 'react']
                 }
             }
         ]
